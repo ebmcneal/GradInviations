@@ -15,7 +15,7 @@ namespace Graduation_Invitations.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About Me.";
 
             return View();
         }
@@ -24,6 +24,10 @@ namespace Graduation_Invitations.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+        public ActionResult Invitation()
+        {
             return View();
         }
     }

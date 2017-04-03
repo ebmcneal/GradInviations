@@ -24,6 +24,7 @@ namespace Graduation_Invitations
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/CrimsonNav.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
